@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34613" started-at="2021-07-03T11:15:14Z" finished-at="2021-07-03T11:15:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34613" started-at="2021-07-03T11:15:14Z" finished-at="2021-07-03T11:15:48Z">
+      <class name="com.framwork.intro.Day13TestNGAssert">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.framwork.intro.Day13TestNGAssert@6d4b1c02]" name="beforeClass" is-config="true" duration-ms="16394" started-at="2021-07-03T11:15:14Z" finished-at="2021-07-03T11:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.framwork.intro.Day13TestNGAssert@6d4b1c02]" name="test1" duration-ms="1157" started-at="2021-07-03T11:15:30Z" finished-at="2021-07-03T11:15:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Username is not matched expected [selenium] but found [Selenium]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Username is not matched expected [selenium] but found [Selenium]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.framwork.intro.Day13TestNGAssert.test1(Day13TestNGAssert.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.framwork.intro.Day13TestNGAssert@6d4b1c02]" name="test2" duration-ms="15283" started-at="2021-07-03T11:15:31Z" finished-at="2021-07-03T11:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.framwork.intro.Day13TestNGAssert@6d4b1c02]" name="afterClass" is-config="true" duration-ms="1674" started-at="2021-07-03T11:15:47Z" finished-at="2021-07-03T11:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.framwork.intro.Day13TestNGAssert -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
