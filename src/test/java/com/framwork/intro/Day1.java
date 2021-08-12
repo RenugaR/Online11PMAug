@@ -14,6 +14,9 @@ public class Day1 {
 		WebDriver driver = new EdgeDriver();
 
 		driver.get("https://www.facebook.com/");
+		int a = 10;
+				System.out.println(a);
+		
 
 	}
 }
