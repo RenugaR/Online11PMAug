@@ -15,8 +15,10 @@ public class Day1 {
 
 		driver.get("https://www.facebook.com/");
 		int a = 10;
-				System.out.println(a);
-		
+		int b = 20;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(a + b);
 
 	}
 }
