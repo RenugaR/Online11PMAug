@@ -19,5 +19,7 @@ public class Day1 {
 		System.out.println("To");
 		System.out.println("Git");
 		System.out.println("Conflict");
+		int a = 10;
+		System.out.println(a);
 	}
 }
