@@ -20,6 +20,9 @@ public class Day1 {
 		System.out.println("Git");
 		System.out.println("Conflict");
 		int a = 10;
+		int b = 20;
 		System.out.println(a);
+		System.out.println(b);
+		System.out.println(a + b);
 	}
 }
